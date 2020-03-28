@@ -1,0 +1,126 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/course/course",
+			"style": {
+				"navigationBarTitleText": "课程"
+			}
+		},
+		{
+			"path": "pages/growup/growup",
+			"style": {
+				"navigationBarTitleText": "成长记"
+			}
+		},
+		{
+			"path": "pages/share/share",
+			"style": {
+				"navigationBarTitleText": "分享"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "用户"
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "用户"
+			}
+		}, {
+			"path": "pages/nav/store/store",
+			"style": {
+				"navigationBarTitleText": "商品列表",
+				// 开启下来刷新
+				"enablePullDownRefresh": true
+
+			}
+		}, {
+			"path": "pages/nav/courseB/courseB",
+			"style": {
+				"navigationBarTitleText": "课程列表"
+			}
+		}, {
+			"path": "pages/nav/videos/videos",
+			"style": {
+				"navigationBarTitleText": "视频列表"
+			}
+		}, {
+			"path": "pages/nav/contact/contact",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		}
+	    
+        ,{
+            "path" : "pages/news-detail/news-detail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/goods-detail/goods-detail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		// 名字颜色 只有 white 和black
+		"navigationBarTextStyle": "white",
+		// 名字
+		"navigationBarTitleText": "letopo-app",
+		// 小程序头颜色
+		"navigationBarBackgroundColor": "#f9cf00",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#f9cf00",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				// 对应页面路径
+				"pagePath": "pages/index/index",
+				// 选择前图标
+				"iconPath": "static/icons/home1.png",
+				// 选择后图标
+				"selectedIconPath": "static/icons/home2.png",
+				// 名字
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/course/course",
+				"iconPath": "static/icons/course1.png",
+				"selectedIconPath": "static/icons/course2.png",
+				"text": "课程"
+			},
+			{
+				"pagePath": "pages/growup/growup",
+				"iconPath": "static/icons/growup1.png",
+				"selectedIconPath": "static/icons/growup2.png",
+				"text": "成长记"
+			},
+			{
+				"pagePath": "pages/share/share",
+				"iconPath": "static/icons/share1.png",
+				"selectedIconPath": "static/icons/share2.png",
+				"text": "分享"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/icons/user1.png",
+				"selectedIconPath": "static/icons/user2.png",
+				"text": "用户"
+			}
+		]
+	}
+}

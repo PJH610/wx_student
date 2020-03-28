@@ -1,0 +1,1 @@
+<view class="store-center"><text>这是商城页</text><store-list vue-id="1" goods="{{goods}}" data-event-opts="{{[['^goodsItemClick',[['goGoodsDetail']]]]}}" bind:goodsItemClick="__e" bind:__l="__l"></store-list><block wx:if="{{flag}}"><view class="isOver">------我是有底线的------</view></block><image src mode></image></view>

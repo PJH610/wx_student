@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/course/course",
+    "pages/growup/growup",
+    "pages/share/share",
+    "pages/user/user",
+    "pages/message/message",
+    "pages/nav/store/store",
+    "pages/nav/courseB/courseB",
+    "pages/nav/videos/videos",
+    "pages/nav/contact/contact",
+    "pages/news-detail/news-detail",
+    "pages/goods-detail/goods-detail",
+    "pages/login/login"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "letopo-app",
+    "navigationBarBackgroundColor": "#f9cf00",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#f9cf00",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icons/home1.png",
+        "selectedIconPath": "static/icons/home2.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/course/course",
+        "iconPath": "static/icons/course1.png",
+        "selectedIconPath": "static/icons/course2.png",
+        "text": "课程"
+      },
+      {
+        "pagePath": "pages/growup/growup",
+        "iconPath": "static/icons/growup1.png",
+        "selectedIconPath": "static/icons/growup2.png",
+        "text": "成长记"
+      },
+      {
+        "pagePath": "pages/share/share",
+        "iconPath": "static/icons/share1.png",
+        "selectedIconPath": "static/icons/share2.png",
+        "text": "分享"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/icons/user1.png",
+        "selectedIconPath": "static/icons/user2.png",
+        "text": "用户"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap51.json"
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "用户",
+  "usingComponents": {
+    "news-item": "/component/news-item/news-item"
+  }
+}

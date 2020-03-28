@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/course/course",
+    "pages/feedback/feedback",
+    "pages/user/user"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "letopo-app",
+    "navigationBarBackgroundColor": "#00aaff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#00aaff",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/shouye2.png",
+        "selectedIconPath": "static/img/shouye.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/course/course",
+        "iconPath": "static/img/kebiao2.png",
+        "selectedIconPath": "static/img/kebiao.png",
+        "text": "课程"
+      },
+      {
+        "pagePath": "pages/feedback/feedback",
+        "iconPath": "static/img/fankui2.png",
+        "selectedIconPath": "static/img/fankui.png",
+        "text": "反馈"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/img/yonghu2.png",
+        "selectedIconPath": "static/img/yonghu.png",
+        "text": "用户"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
