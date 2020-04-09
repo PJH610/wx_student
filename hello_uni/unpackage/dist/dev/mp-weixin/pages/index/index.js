@@ -144,7 +144,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 23));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}var storeList = function storeList() {return __webpack_require__.e(/*! import() | component/store-list/store-list */ "component/store-list/store-list").then(__webpack_require__.bind(null, /*! ../../component/store-list/store-list.vue */ 118));};var _default =
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 23));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}var storeList = function storeList() {return __webpack_require__.e(/*! import() | component/store-list/store-list */ "component/store-list/store-list").then(__webpack_require__.bind(null, /*! ../../component/store-list/store-list.vue */ 129));};var _default =
 
 
 
@@ -201,6 +201,16 @@ __webpack_require__.r(__webpack_exports__);
     this.getSwipers();
     this.getHotGoogs();
   },
+  onShareAppMessage: function onShareAppMessage(res) {
+    if (res.from === 'button') {
+      // 来自页面内分享按钮
+      console.log(res.target);
+    }
+    return {
+      title: '分享标题',
+      path: '/pages/index/index' };
+
+  },
   components: {
     'store-list': storeList },
 
@@ -223,7 +233,7 @@ __webpack_require__.r(__webpack_exports__);
 
     // 导航点击的处理函数
     navItemClick: function navItemClick(url) {
-      console.log(url);
+      // console.log(url);
       uni.navigateTo({
         url: url });
 
@@ -233,7 +243,15 @@ __webpack_require__.r(__webpack_exports__);
       uni.navigateTo({
         url: '../goods-detail/goods-detail?id=' + id });
 
-    } } };exports.default = _default;
+    }
+    // onShareAppMessage(e) {
+    // 	let title = '转发成功';
+    // 	return {
+    // 		title: title,
+    // 		path: '/pages/index/index'
+    // 	};
+    // }
+  } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),

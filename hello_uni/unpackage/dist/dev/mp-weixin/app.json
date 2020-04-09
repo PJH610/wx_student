@@ -12,7 +12,16 @@
     "pages/nav/contact/contact",
     "pages/news-detail/news-detail",
     "pages/goods-detail/goods-detail",
-    "pages/login/login"
+    "pages/login/login",
+    "pages/empty/empty",
+    "pages/towpages/propaganda/propaganda",
+    "pages/towpages/quality-report/quality-report",
+    "pages/towpages/growth-report/growth-report",
+    "pages/towpages/integral/integral",
+    "pages/towpages/activity/activity",
+    "pages/towpages/child/child",
+    "pages/towpages/medal/medal",
+    "pages/towpages/focus/focus"
   ],
   "subPackages": [],
   "window": {
@@ -59,6 +68,5 @@
       }
     ]
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap51.json"
+  "usingComponents": {}
 }

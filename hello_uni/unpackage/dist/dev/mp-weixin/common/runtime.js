@@ -104,11 +104,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"component/store-list/store-list":1,"component/news-item/news-item":1,"components/uni-goods-nav/uni-goods-nav":1};
+/******/ 		var cssChunks = {"component/store-list/store-list":1,"components/uni-calendar/uni-calendar":1,"component/user-item/user-item":1,"component/news-item/news-item":1,"components/uni-goods-nav/uni-goods-nav":1,"component/empty-data/empty-data":1,"components/uni-calendar/uni-calendar-item":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"component/store-list/store-list":"component/store-list/store-list","component/news-item/news-item":"component/news-item/news-item","components/uni-goods-nav/uni-goods-nav":"components/uni-goods-nav/uni-goods-nav"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"component/store-list/store-list":"component/store-list/store-list","components/uni-calendar/uni-calendar":"components/uni-calendar/uni-calendar","component/user-item/user-item":"component/user-item/user-item","component/news-item/news-item":"component/news-item/news-item","components/uni-goods-nav/uni-goods-nav":"components/uni-goods-nav/uni-goods-nav","component/empty-data/empty-data":"component/empty-data/empty-data","components/uni-calendar/uni-calendar-item":"components/uni-calendar/uni-calendar-item"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {

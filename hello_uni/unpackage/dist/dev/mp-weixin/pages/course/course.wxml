@@ -1,1 +1,1 @@
-<view><view class="content"><text>这是课程页</text></view></view>
+<view><view class="content"><text>这是课程页</text></view><uni-calendar vue-id="1" insert="{{true}}" lunar="{{true}}" start-date="2019-3-2" end-date="2019-5-20" data-event-opts="{{[['^change',[['change']]]]}}" bind:change="__e" bind:__l="__l"></uni-calendar></view>

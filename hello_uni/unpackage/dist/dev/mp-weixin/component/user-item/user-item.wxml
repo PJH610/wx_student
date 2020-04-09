@@ -1,0 +1,1 @@
+<view><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['navigator',['$0'],[[['list','',index,'path']]]]]]]}}" class="item" bindtap="__e"><image src="{{item.img_url}}" mode="404"></image><view class="item_text"><text>{{item.name}}</text><text class="code">{{code}}</text></view></view></block></view>

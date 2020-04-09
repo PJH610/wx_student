@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "用户",
-  "usingComponents": {}
+  "usingComponents": {
+    "user-item": "/component/user-item/user-item"
+  }
 }

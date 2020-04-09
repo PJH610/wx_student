@@ -55,6 +55,16 @@ export default {
 		this.getSwipers();
 		this.getHotGoogs();
 	},
+	onShareAppMessage(res) {
+		if (res.from === 'button') {
+			// 来自页面内分享按钮
+			console.log(res.target);
+		}
+		return {
+			title: '分享标题',
+			path: '/pages/index/index'
+		};
+	},
 	components: {
 		'store-list': storeList
 	},
@@ -77,7 +87,7 @@ export default {
 		},
 		// 导航点击的处理函数
 		navItemClick(url) {
-			console.log(url);
+			// console.log(url);
 			uni.navigateTo({
 				url: url
 			});
@@ -88,6 +98,13 @@ export default {
 				url: '../goods-detail/goods-detail?id=' + id
 			});
 		}
+		// onShareAppMessage(e) {
+		// 	let title = '转发成功';
+		// 	return {
+		// 		title: title,
+		// 		path: '/pages/index/index'
+		// 	};
+		// }
 	}
 };
 </script>

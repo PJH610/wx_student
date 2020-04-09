@@ -70,7 +70,60 @@
         }
         ,{
             "path" : "pages/login/login",
-            "style" : {}
+            "style" : {"navigationBarTitleText": "登录"}
+        }
+        ,{
+            "path" : "pages/empty/empty",
+            "style" : {"navigationBarTitleText": "空数据"}
+        }
+        ,{
+            "path" : "pages/towpages/propaganda/propaganda",
+            "style" : {
+				"navigationBarTitleText": "我的推广"
+			}
+        }
+        ,{
+            "path" : "pages/towpages/quality-report/quality-report",
+            "style" : {
+				"navigationBarTitleText": "综合素质评价报告"
+			}
+        }
+        ,{
+            "path" : "pages/towpages/growth-report/growth-report",
+            "style" : {
+				"navigationBarTitleText": "成长报告"
+			}
+        }
+        ,{
+            "path" : "pages/towpages/integral/integral",
+            "style" : {
+				"navigationBarTitleText": "我的积分"
+			}
+        }
+		,{
+		    "path" : "pages/towpages/activity/activity",
+		    "style" : {
+				"navigationBarTitleText": "我的活动"
+			}
+		}
+        ,{
+            "path" : "pages/towpages/child/child",
+            "style" : {
+				"navigationBarTitleText": "我的孩子"
+			}
+        }
+        
+        ,{
+            "path" : "pages/towpages/medal/medal",
+            "style" : {
+				"navigationBarTitleText": "我的勋章"
+			}
+        }
+        ,{
+            "path" : "pages/towpages/focus/focus",
+            "style" : {
+				"navigationBarTitleText": "我的关注"
+			}
         }
     ],
 	"globalStyle": {

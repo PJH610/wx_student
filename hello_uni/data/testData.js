@@ -151,6 +151,101 @@ let data = {
 			title: '联系我们',
 			path: '/pages/nav/contact/contact'
 		}
+	],
+	mains: [{
+			icon_url: '../../static/icons/growup2.png',
+			title: '课程报告',
+			path: '/pages/course/course'
+		},
+		{
+			icon_url: '../../static/icons/growup2.png',
+			title: '拓展互动',
+			path: '/pages/course/course'
+		},
+		{
+			icon_url: '../../static/icons/growup2.png',
+			title: '课程',
+			path: '/pages/course/course'
+		},
+		{
+			icon_url: '../../static/icons/growup2.png',
+			title: '选择班级',
+			path: '/pages/course/course'
+		},
+		{
+			icon_url: '../../static/icons/growup2.png',
+			title: '我的订单',
+			path: '/pages/course/course'
+		},
+		{
+			icon_url: '../../static/icons/growup2.png',
+			title: '评价',
+			path: '/pages/course/course'
+		},
+		{
+			icon_url: '../../static/icons/growup2.png',
+			title: '选课程',
+			path: '/pages/course/course'
+		},
+		{
+			icon_url: '../../static/icons/growup2.png',
+			title: '成长记录',
+			path: '/pages/course/course'
+		},
+
+	],
+	mains_item:[
+		{
+			img_url:'../../static/icons/home1.png',
+			name:'我的推广',
+			path: '/pages/towpages/propaganda/propaganda'
+		},
+		{
+			img_url:'../../static/icons/home1.png',
+			name:'综合素质评价报告',
+			path: '/pages/towpages/quality-report/quality-report'
+		},
+		{
+			img_url:'../../static/icons/home1.png',
+			name:'孩子成长报告',
+			path: '/pages/towpages/growth-report/growth-report'
+		},
+		{
+			img_url:'../../static/icons/home1.png',
+			name:'我的积分',
+			path: '/pages/towpages/integral/integral'
+		},
+		{
+			img_url:'../../static/icons/home1.png',
+			name:'我的活动',
+			path: '/pages/towpages/activity/activity'
+		},
+		{
+			img_url:'../../static/icons/home1.png',
+			name:'我的孩子',
+			path: '/pages/towpages/child/child'
+		},
+		{
+			img_url:'../../static/icons/home1.png',
+			name:'我的勋章',
+			path: '/pages/towpages/medal/medal'
+		},
+		{
+			img_url:'../../static/icons/home1.png',
+			name:'我的关注',
+			path: '/pages/towpages/focus/focus'
+		},
+		{
+			img_url:'../../static/icons/home1.png',
+			name:'联系我们',
+			path: '/pages/nav/contact/contact'
+		},
+		{
+			img_url:'../../static/icons/home1.png',
+			name:'乐同商城',
+			path: '/pages/nav/store/store'
+		},
+		
 	]
 }
 module.exports = {

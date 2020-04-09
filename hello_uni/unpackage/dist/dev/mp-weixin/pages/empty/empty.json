@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "空数据",
+  "usingComponents": {
+    "empty-data": "/component/empty-data/empty-data"
+  }
+}
